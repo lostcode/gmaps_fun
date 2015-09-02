@@ -1,3 +1,26 @@
 
-alternatives=True
-can figure out route by 'summary' field
++-----------+
+| WHAT NEXT |
++-----------+
+
+2015/09/03
+    - ???
+
+
++-----------+
+| FOR LATER |
++-----------+
+
+    - alternatives=True
+        - can figure out route by 'summary' field
+
++-----------+
+| DECISIONS |
++-----------+
+
+2015/09/02
+    - decided to not deploy on heroku.
+    - need flask (or some web server).
+        - flask doesn't let me do background threads easily. suggestion is to use flask-celery or some such stupidity.
+    - for now, simply running on local server without it going to sleep. :)
+
